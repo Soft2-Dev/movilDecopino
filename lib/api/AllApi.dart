@@ -6,10 +6,10 @@ import 'package:dio/dio.dart';
 
 class Api {
   //ferasApp.php
-  static String url = 'https://decoracioneslospinos.com/app/webService_hammer.php?correo=alfredo@gmail.com&contra=12345678';
+  static String url = 'https://decoracioneslospinos.com/app';
   // static String url = 'https://decoracioneslospinos.com/app/webService_alejandro.php';
-  // static String url = 'https://des-cali.com/flutter/';
-  static Dio _dio = new Dio();
+  // static String url = 'https://des-cali.com/pido';
+  static Dio _dio = Dio();
 
   static void configuteDio() {
     // base del url
